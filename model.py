@@ -23,8 +23,9 @@ def plot_class_pred(learner, im_path, label_dict):
         label_dict[int(category_t)],
         preds[int(category_t)].detach().numpy() * 100),
         color=("green")
-    plt.axes('off')
     )
+
+    plt.axis('off')
     return fig
 
 
