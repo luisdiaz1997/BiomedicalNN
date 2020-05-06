@@ -11,7 +11,7 @@ def predict_from_dir(im_dir):
     label_dict = {0: 'NORMAL', 1: 'PNEUMONIA'}
     learn = load_learner(path = model_path, file = 'dense')
     fig = plot_class_pred(learn, im_dir, label_dict)
-    fig.savefig(output_path + im_dir.split('/')[-1])
+    fig.savefig(output_path + im_dir.split('/')[-1], bbox_inches='tight')
 
 
 def plot_class_pred(learner, im_path, label_dict):
