@@ -4,8 +4,8 @@ import sys
 
 def predict_from_dir(im_dir):
 
-    model_path = '/home/models/'
-    output_path = '/home/predictions/'
+    model_path = 'models/'
+    output_path = 'predictions/'
 
 
     label_dict = {0: 'NORMAL', 1: 'PNEUMONIA'}
