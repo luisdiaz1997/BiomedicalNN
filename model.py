@@ -1,5 +1,7 @@
 import fastai
 from fastai.vision import *
+import matplotlib as mpl
+mpl.use('Agg')
 import sys
 
 def predict_from_dir(im_dir):
