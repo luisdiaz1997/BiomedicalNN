@@ -9,14 +9,16 @@ conda create --name fast python=3.6
 conda activate fast
 
 Then install packages
---On MAC
-conda install pytorch torchvision -c pytorch
+--On MAC or Linux
+conda install pytorch=1.4 torchvision -c pytorch
 conda install -c fastai fastai
---On Windows
 
+--On Windows
 conda install pytorch torchvision cpuonly -c pytorch
 conda install -c fastai fastai
 
+Install Flask
+conda install flask
 ---------------------------------------
 --Test run
 python model.py sample/NORMAL2-IM-0832-0001-0002.jpeg
