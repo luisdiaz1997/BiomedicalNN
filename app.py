@@ -2,14 +2,14 @@ import io
 import model
 import os
 from flask import Flask, request,\
-render_template,jsonify
+render_template,jsonify,send_file, Response, make_response
 
 #from flask_assets import Bundle, Environment
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='./build', static_url_path='/')
 
 
 '''
@@ -19,7 +19,7 @@ assets.register('main_js', js)
 '''
 
 
-@app.route('/predict', methods = ['POST','GET'])
+@app.route('/predict', methods = ['POST'])
 def predict():
     if request.method == 'POST':
         file = request.files['file']
@@ -30,13 +30,15 @@ def predict():
         return jsonify({'class_id': category,\
         'class_name': model.label_dict[category],\
         'class_probability': float(predictions[category]),
-        'results': os.path.join(dir_path, 'predictions', file.filename)})
-    return render_template('file_upload.html')
+        'results': file.filename})
 
+@app.route('/image/<filename>', methods =['GET'])
+def img(filename):
+      return send_file(os.path.join(dir_path, 'predictions', filename))
 
 @app.route('/')
 def home():
-    return render_template('index.html')
+      return app.send_static_file('index.html')
 
 
 if __name__ == '__main__':
