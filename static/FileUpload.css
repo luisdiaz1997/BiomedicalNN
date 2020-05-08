@@ -1,0 +1,29 @@
+.holding-container{
+    display: inline;
+
+}
+
+.file-upload{
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+.upload{
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+    background-color: #006ffe;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    margin-top: 20px;
+    height: 35px;
+    width: 80vw;
+    
+
+}
+
+
+
