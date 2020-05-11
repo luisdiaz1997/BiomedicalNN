@@ -1,4 +1,4 @@
-## Our Website
+# Our Website
 
 * [BAD DATA HEALTH](http://baddatahealth.com)
 
@@ -11,6 +11,11 @@
 * [Flask](https://flask.palletsprojects.com/en/1.1.x/) - Used to serve as REST API server to communicate our model and front-end
 * [Gunicorn](https://gunicorn.org) - Used to handle our HTTP server
 * [NGINX](https://nginx.org/en/) - Used to handle out HTTP proxy server
+
+----------------------------------------
+## Train your own model (Tutorial)
+
+[FastChest](https://github.com/luisdiaz1997/BiomedicalNN/blob/master/FastChest.ipynb) - Tutorial using Jupyter Notebook to train using on Google's Colab. No need to install on your computer. You will need a Kaggle account to download the data.
 
 ------------------------------------------------------------------------
 
@@ -69,8 +74,3 @@ always contains the file "dense"
 ```
 gunicorn --bind 0.0.0.0:5000 wsgi:app
 ```
-
-----------------------------------------
-## Train your own model (Tutorial)
-
-[FastChest](https://github.com/luisdiaz1997/BiomedicalNN/blob/master/FastChest.ipynb)
