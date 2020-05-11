@@ -27,10 +27,8 @@ conda install flask gunicorn
 python model.py sample/NORMAL2-IM-0832-0001-0002.jpeg
 python model.py sample/person469_bacteria_1993.jpeg
 ```
-That should create files with same name in ./predictions
-They will contain a green title with the prediction
-model.py just takes the path of an image as argument
-this path can be anywhere in the computer
+That should create files with same name in ./predictions, they will contain a green title with the prediction
+model.py just takes the path of an image as argument, this path can be anywhere in the computer
 ---------------------------------------
 ## Changing the paths
 You can change the paths of where the model is located
