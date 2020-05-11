@@ -4,7 +4,7 @@ https://www.anaconda.com/products/individual
 
 --Then create new environment
 
-conda create --name fast python=3.6
+# conda create --name fast python=3.6
 
 --Activate the environment
 conda activate fast
@@ -16,6 +16,7 @@ conda install flask gunicorn
 
 ---------------------------------------
 --Test run
+
 python model.py sample/NORMAL2-IM-0832-0001-0002.jpeg
 python model.py sample/person469_bacteria_1993.jpeg
 
