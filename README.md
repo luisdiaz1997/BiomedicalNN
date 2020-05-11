@@ -41,8 +41,12 @@ conda install flask gunicorn
 ## Test run
 
 ```
-python model.py sample/NORMAL2-IM-0832-0001-0002.jpeg
-python model.py sample/person469_bacteria_1993.jpeg
+python model.py sample/NORMAL2-IM-1427-0001.jpeg
+![alt text](http://url/to/img.png)
+
+python model.py sample/person1947_bacteria_4876.jpeg
+![alt text](http://url/to/img.png)
+
 ```
 That should create files with same name in ./predictions, they will contain a green title with the prediction
 model.py just takes the path of an image as argument, this path can be anywhere in the computer
@@ -51,7 +55,7 @@ model.py just takes the path of an image as argument, this path can be anywhere 
 ## Changing the paths
 You can change the paths of where the model is located
 And where the predictions will be sent
-by changing the following in model.py
+by changing the following in [model.py](https://github.com/luisdiaz1997/BiomedicalNN/blob/master/model.py)
 
 ```
 model_path = 'models/'
