@@ -44,9 +44,9 @@ conda install flask gunicorn
 python model.py sample/NORMAL2-IM-1427-0001.jpeg | python model.py sample/person1947_bacteria_4876.jpeg
 ```
 
-<p float="center">
-  <img src="https://github.com/luisdiaz1997/BiomedicalNN/blob/master/predictions/NORMAL2-IM-1427-0001.jpeg?raw=true" width="200" />
-  <img src="https://github.com/luisdiaz1997/BiomedicalNN/blob/master/predictions/person1947_bacteria_4876.jpeg?raw=true" width="200" />
+<p align="middle">
+  <img src="https://github.com/luisdiaz1997/BiomedicalNN/blob/master/predictions/NORMAL2-IM-1427-0001.jpeg?raw=true" width="400" />
+  <img src="https://github.com/luisdiaz1997/BiomedicalNN/blob/master/predictions/person1947_bacteria_4876.jpeg?raw=true" width="400" />
 </p>
 
 ---------------------------------------
