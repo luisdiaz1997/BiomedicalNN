@@ -1,6 +1,6 @@
 ## Our Website
 
-*[BAD DATA HEALTH](http://baddatahealth.com)
+* [BAD DATA HEALTH](http://baddatahealth.com)
 
 ------------------------------------------------------------
 
