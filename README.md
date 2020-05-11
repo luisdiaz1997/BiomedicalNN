@@ -1,4 +1,5 @@
-install anaconda 3 in your system
+
+Install anaconda 3 in your system
 https://www.anaconda.com/products/individual
 
 --Then create new environment
@@ -9,16 +10,10 @@ conda create --name fast python=3.6
 conda activate fast
 
 Then install packages
---On MAC or Linux
 conda install pytorch=1.4 torchvision -c pytorch
 conda install -c fastai fastai
+conda install flask gunicorn
 
---On Windows
-conda install pytorch torchvision cpuonly -c pytorch
-conda install -c fastai fastai
-
-Install Flask
-conda install flask
 ---------------------------------------
 --Test run
 python model.py sample/NORMAL2-IM-0832-0001-0002.jpeg
@@ -37,6 +32,10 @@ python model.py sample/person469_bacteria_1993.jpeg
 model_path = 'models/'
 output_path = 'predictions/'
 
-
 --make sure that the path of the models
 --always contains the file "dense"
+
+---------------------------------------
+--Run server
+
+gunicorn --bind 0.0.0.0:5000 wsgi:app
