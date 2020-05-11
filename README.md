@@ -1,3 +1,20 @@
+## Our Website
+
+*[BAD DATA HEALTH](http://baddatahealth.com)
+
+------------------------------------------------------------
+
+## Built With
+
+* [FastAI](https://www.fast.ai) - Deep Learning library for [Pytorch](https://pytorch.org)
+* [create-react-app](https://github.com/facebook/create-react-app) - Used to build our [front end](https://github.com/eramos4/csc821-finalproject)
+* [Flask](https://flask.palletsprojects.com/en/1.1.x/) - Used to serve as REST API server to communicate our model and front-end
+* [Gunicorn](https://gunicorn.org) - Used to handle our HTTP server
+* [NGINX](https://nginx.org/en/) - Used to handle out HTTP proxy server
+
+------------------------------------------------------------------------
+
+# Deploy on your computer
 
 ## Instalation
 Install anaconda 3 in your system
@@ -50,10 +67,3 @@ always contains the file "dense"
 ```
 gunicorn --bind 0.0.0.0:5000 wsgi:app
 ```
-
-----------------------------------------
-## Built With
-
-* [FastAI](https://www.fast.ai) - Deep Learning library for [Pytorch](https://pytorch.org)
-* [create-react-app](https://github.com/facebook/create-react-app) - Used to build our [front end](https://github.com/eramos4/csc821-finalproject)
-* [Flask](https://flask.palletsprojects.com/en/1.1.x/) - Used to serve as REST API server to communicate our model and front-end
