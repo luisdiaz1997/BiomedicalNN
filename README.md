@@ -4,7 +4,9 @@ https://www.anaconda.com/products/individual
 
 --Then create new environment
 
-# conda create --name fast python=3.6
+```
+conda create --name fast python=3.6
+```
 
 --Activate the environment
 conda activate fast
