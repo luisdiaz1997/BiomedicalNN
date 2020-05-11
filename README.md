@@ -69,3 +69,8 @@ always contains the file "dense"
 ```
 gunicorn --bind 0.0.0.0:5000 wsgi:app
 ```
+
+----------------------------------------
+## Train your own model (Tutorial)
+
+[FastChest](https://github.com/luisdiaz1997/BiomedicalNN/blob/master/FastChest.ipynb)
