@@ -79,7 +79,7 @@ gunicorn --bind 0.0.0.0:5000 wsgi:app
 
 ## Contributors
 
-[Luis Chumpitaz](https://github.com/luisdiaz1997) - Deep learning and Cloud Deployment
-[Eduardo Ramos](https://github.com/eramos4) - Front End and Framework Deployment
-[Jose Pascual](https://github.com/plotinusspascual) - Front End Development
-[Brooke Porter]() - Deep Learning (YOLOv3) Segmentation Post-Processing
+* [Luis Chumpitaz](https://github.com/luisdiaz1997) - Deep learning and Cloud Deployment
+* [Eduardo Ramos](https://github.com/eramos4) - Front End and Framework Deployment
+* [Jose Pascual](https://github.com/plotinusspascual) - Front End Development
+* [Brooke Porter]() - Deep Learning (YOLOv3) Segmentation Post-Processing
