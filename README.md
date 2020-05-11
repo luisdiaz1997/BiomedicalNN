@@ -42,15 +42,15 @@ conda install flask gunicorn
 
 ```
 python model.py sample/NORMAL2-IM-1427-0001.jpeg
-'''
+```
 
-![alt text](https://github.com/luisdiaz1997/BiomedicalNN/blob/master/predictions/NORMAL2-IM-1427-0001.jpeg)
+![Alt text](https://github.com/luisdiaz1997/BiomedicalNN/blob/master/predictions/NORMAL2-IM-1427-0001.jpeg?raw=true)
 
 ```
 python model.py sample/person1947_bacteria_4876.jpeg
 ```
 
-![alt text](https://github.com/luisdiaz1997/BiomedicalNN/blob/master/predictions/person1947_bacteria_4876.jpeg)
+![Alt text](https://github.com/luisdiaz1997/BiomedicalNN/blob/master/predictions/person1947_bacteria_4876.jpeg?raw=true)
 
 
 That should create files with same name in ./predictions, they will contain a green title with the prediction
