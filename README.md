@@ -29,6 +29,7 @@ python model.py sample/person469_bacteria_1993.jpeg
 ```
 That should create files with same name in ./predictions, they will contain a green title with the prediction
 model.py just takes the path of an image as argument, this path can be anywhere in the computer
+
 ---------------------------------------
 ## Changing the paths
 You can change the paths of where the model is located
