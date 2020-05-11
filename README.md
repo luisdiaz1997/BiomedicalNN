@@ -82,4 +82,4 @@ gunicorn --bind 0.0.0.0:5000 wsgi:app
 * [Luis Chumpitaz](https://github.com/luisdiaz1997) - Deep learning and Cloud Deployment
 * [Eduardo Ramos](https://github.com/eramos4) - Front and Back End API Framework Deployment
 * [Jose Pascual](https://github.com/plotinusspascual) - Front End Development
-* [Brooke Porter]() - Deep Learning (YOLOv3) Segmentation Post-Processing
+* [Brooke Porter](https://github.com/blporter) - Deep Learning (YOLOv3) Segmentation [Post-Processing](https://github.com/blporter/yolo_post_processing)
