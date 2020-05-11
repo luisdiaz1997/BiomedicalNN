@@ -12,9 +12,10 @@ label_dict = {0: 'NORMAL', 1: 'PNEUMONIA'}
 learner = load_learner(path = model_path, file = 'dense')
 
 def image_from_bytes(image_bytes):
-    im = PIL.Image.open(io.BytesIO(image_bytes))
-    im = pil2tensor(im.convert("RGB"), np.float32).div_(255)
-    im = Image(im)
+    im = open_image(io.BytesIO(image_bytes))
+    #im = PIL.Image.open(io.BytesIO(image_bytes))
+    #im = pil2tensor(im.convert("RGB"), np.float32).div_(255)
+    #im = Image(im)
     return im
 
 def predict(im):
