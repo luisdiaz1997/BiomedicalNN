@@ -45,8 +45,15 @@ make sure that the path of the models
 always contains the file "dense"
 
 ---------------------------------------
-## Run server
+## Deployment
 
 ```
 gunicorn --bind 0.0.0.0:5000 wsgi:app
 ```
+
+----------------------------------------
+## Built With
+
+* [FastAI](https://www.fast.ai) - Deep Learning library for [Pytorch](https://pytorch.org)
+* [create-react-app](https://github.com/facebook/create-react-app) - Used for our front-end
+* [Flask](https://flask.palletsprojects.com/en/1.1.x/) - Used to serve as REST API server to communicate our model and front-end
