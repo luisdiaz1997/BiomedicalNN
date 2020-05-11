@@ -55,5 +55,5 @@ gunicorn --bind 0.0.0.0:5000 wsgi:app
 ## Built With
 
 * [FastAI](https://www.fast.ai) - Deep Learning library for [Pytorch](https://pytorch.org)
-* [create-react-app](https://github.com/facebook/create-react-app) - Used for our front-end
+* [create-react-app](https://github.com/facebook/create-react-app) - Used to build our [front end](https://github.com/eramos4/csc821-finalproject)
 * [Flask](https://flask.palletsprojects.com/en/1.1.x/) - Used to serve as REST API server to communicate our model and front-end
