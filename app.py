@@ -11,7 +11,6 @@ dir_path = os.path.dirname(os.path.realpath(__file__))
 
 app = Flask(__name__, static_folder='./build', static_url_path='/')
 
-
 '''
 js = Bundle('like_button.js', output = 'main.js')
 assets = Environment(app)
